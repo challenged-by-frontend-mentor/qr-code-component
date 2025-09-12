@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,55 +21,83 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-- Mobile view
-  ![Mobile view screenshot](./sources/screenshots/mobile-view.png)
-- Desktop view
-  ![Desktop view screenshot](./sources/screenshots/desktop-view.png)
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [QR Code Component using HTML, CSS, and Bootstrap](https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-jr7pPxQL8C)
-- Live Site URL: [Frontend Mentor | QR code component](https://vangmanawkairung.github.io/Frontend-Mentor_qr-code-component/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
-- <b>HTML Structure</b>: Provides a clean and semantic layout for better content organization.
-- <b>Meta Tags</b>: Enhances SEO and ensures proper display on various devices.
-- <b>Google Fonts</b>: Improves typography and visual appeal with custom fonts.
-- <b>CSS Custom Properties</b>: Simplifies color and value management for consistent theming.
-- <b>Mobile-First Workflow</b>: Optimizes the design for mobile devices first, ensuring responsiveness.
-- <b>[Bootstrap](https://getbootstrap.com)</b> - CSS library: Streamlines layout and styling, reducing the need for custom CSS.
-- <b>SCSS</b>: Enhances CSS organization and readability through variables and nesting.
-- <b>Responsive Design</b>: Ensures the website looks good and functions well across all screen sizes.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-- <b>HTML Structure</b>: I’ve been creating clean and semantic HTML using tags like `<article>`, `<section>`, and headers.
-- <b>Meta Tags</b>: I’re using meta tags like viewport and description to improve device compatibility and SEO.
-- <b>Google Fonts</b>: I’ve successfully integrated Google Fonts for enhanced typography.
-- <b>CSS Custom Properties</b>: SCSS variables help I manage colors and values efficiently for a consistent theme.
-- <b>Mobile-First Workflow</b>: The layout starts mobile-friendly and adapts well to larger screens.
-- <b>Bootstrap</b>: I effectively used Bootstrap to streamline layout and styling.
-- <b>SCSS</b>: SCSS helps organize my code with features like nesting and variables.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
+
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-- <b>Dynamic Themes</b>: Use CSS variables to create light/dark themes.
-- <b>Responsive Refinements</b>: Enhance responsiveness with more media queries.
-- <b>JavaScript</b>: Add interactivity, like theme switching or dynamic features.
-- <b>Advanced Projects</b>: Tackle more complex projects like responsive forms or API-driven apps.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Bootstrap Document](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Provides a comprehensive guide to effectively using the framework for building responsive and customizable web applications with pre-built components and best practices.
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
-- GitHub - [VangmanawKairung](https://github.com/VangmanawKairung)
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-I would like to express my heartfelt gratitude to Frontend Mentor for providing inspiring challenges that enhance my coding skills, and to Bootstrap for offering a powerful framework that simplifies web development. Special thanks to VS Code for being an exceptional code editor, and to ChatGPT for providing valuable assistance and insights throughout my learning journey. I also appreciate the Preview feature on Mac for its convenience in testing designs, along with all the other tools that have supported my growth as a developer. Your contributions have been instrumental in my progress!
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
