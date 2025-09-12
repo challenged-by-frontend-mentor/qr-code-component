@@ -26,6 +26,7 @@
         --card-background-color: hsl(0, 0%, 100%);
         --header-color: hsl(218, 44%, 22%);
         --paragraph-color: hsl(216, 15%, 48%);
+        --shadow-color: hsl(216, 26%, 72%);
         --font-size: 15px;
         --font-weight-regular: 400;
         --font-weight-bold: 700;
@@ -52,7 +53,7 @@
         border-radius: 20px;
         padding: 16px;
         padding-bottom: 40px;
-        filter: drop-shadow();
+        filter: drop-shadow(var(--shadow-color) 0px 10px 10px);
 
         position: absolute;
         top: 50%;
