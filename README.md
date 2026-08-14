@@ -38,8 +38,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR code component challenge solution using React, Vite, and BEM CSS](https://www.frontendmentor.io/solutions/test-XhVroO-R_F)
+- Live Site URL: [qr-code-component](https://github.com/challenged-by-frontend-mentor/qr-code-component/tree/main)
 
 ## My process
 
@@ -90,7 +90,7 @@ Throughout this challenge, I collaborated with Gemini to review my implementatio
 - Code Quality Check: Verified Accessibility attributes (e.g., meaningful image alt texts) and React JSX attribute syntax (className).
 
 ## Author
-- GitHub: [Kirung Vangmanaw](https://github.com/VangmanawKairung)
+- GitHub: [Kairung Vangmanaw](https://github.com/VangmanawKairung)
 - Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
 
 ## Acknowledgments
