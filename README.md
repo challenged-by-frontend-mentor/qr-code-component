@@ -1,36 +1,40 @@
 # Frontend Mentor - QR code component solution
 
+![](.reference/preview.jpg)
+
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+    - [AI Collaboration](#ai-collaboration)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
+<details>
+  
+  <summary>
+  Mobile view
+  </summary>
+    <img src="screenshots/mobile-view.png" alt="QR code component challenge solution site - mobile view" width="375px">
+</details>
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<details>
+  <summary>Desktop view</summary>
+  <img src="screenshots/Desktop-view.png" alt="QR code component challenge solution site - desktop view">
+</details>
 
 ### Links
 
@@ -42,73 +46,54 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS custom properties (Variables)
+- Flexbox for layout and centering
+- [BEM Methodology](https://getbem.com/) for CSS naming conventions
+- [React](https://react.dev/) - JS library for building user interfaces
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- **Pixel-perfect workflow:** Image overlay techniques & macOS Preview tool for precise pixel measurement
 
 ### What I learned
+1. **Refactoring to React & Modular Architecture:** 
+   I refactored the original vanilla HTML/CSS implementation into modular React components (`<Card />` and `<Footer />`), improving code reusability and maintainability.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+2. **Clean Centering with Flexbox:** 
+   Instead of relying heavily on `position: absolute` with `translate` to center the main card, I learned how to utilize Flexbox on the `body` container to achieve a clean, responsive dead-center layout:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+   ```css
+   body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+3. **Strict BEM Naming Conventions:**
+    I refined my CSS selector structure to strictly adhere to BEM (Block Element Modifier) standards, using clean Block scopes like `.card`, `.card__qr-code`, and `.card__content`.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Deepen understanding of responsive layouts and advanced CSS Grid/Flexbox techniques.
+- Continue implementing BEM methodology and CSS design systems in larger React projects.
+- Focus on web accessibility (a11y) best practices, such as descriptive `alt` texts for screen readers.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [drop-shadow() - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow) - This helped me clarify the properties of drop-shadow function in CSS.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+Throughout this challenge, I collaborated with Gemini to review my implementation:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+- CSS Layout Optimization: Discussed various methods for centering elements and resolved layout edge cases regarding fixed heights vs. content-driven expansion.
+- BEM Refactoring: Evaluated and corrected class naming structures to ensure full compliance with BEM standards.
+- Code Quality Check: Verified Accessibility attributes (e.g., meaningful image alt texts) and React JSX attribute syntax (className).
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub: [Kirung Vangmanaw](https://github.com/VangmanawKairung)
+- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
 
 ## Acknowledgments
+I want to thank the **Frontend Mentor team** for providing this great design challenge. A big thanks to **Google** for developing **Gemini**, which served as an insightful coding assistant during code reviews and refactoring. 
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Special credit to my practical pixel-perfect workflow using **macOS Preview** for accurate pixel measurements and image overlay techniques to ensure the implementation stays true to the original design. Lastly, appreciation to myself for staying persistent and continually pushing my front-end development skills forward!
