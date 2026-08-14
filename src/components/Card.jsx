@@ -2,8 +2,12 @@ import qrImage from "../assets/image-qr-code.png"
 
 const Card = () => {
   return (
-    <main className="card__container">
-      <img src={qrImage} alt="QR Code Image" className="qr-code" />
+    <main className="card">
+      <img
+        src={qrImage}
+        alt="QR code to scan and visit Frontend Mentor"
+        className="card__qr-code"
+      />
       <div className="card__content">
         <h1 className="card__title">
           Improve your front-end skills by building projects
