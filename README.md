@@ -33,13 +33,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 <details>
   <summary>Desktop view</summary>
-  <img src="screenshots/Desktop-view.png" alt="QR code component challenge solution site - desktop view">
+  <img src="screenshots/desktop-view.png" alt="QR code component challenge solution site - desktop view">
 </details>
 
 ### Links
 
 - Solution URL: [QR code component challenge solution using React, Vite, and BEM CSS](https://www.frontendmentor.io/solutions/test-XhVroO-R_F)
-- Live Site URL: [qr-code-component](https://github.com/challenged-by-frontend-mentor/qr-code-component/tree/main)
+- Live Site URL: [Frontend Mentor | QR code component](https://github.com/challenged-by-frontend-mentor/qr-code-component/tree/main)
 
 ## My process
 
